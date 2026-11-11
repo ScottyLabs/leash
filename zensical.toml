@@ -1,0 +1,25 @@
+[project]
+site_name = "Leash"
+site_url = "https://docs.leash.scottylabs.org"
+repo_url = "https://git.cmu.dev/ScottyLabs/leash"
+docs_dir = "docs"
+edit_uri = "_edit/main/docs/"
+nav = [
+  { "Home" = "index.md" },
+  { "Getting started" = "getting-started.md" },
+  { "Policy reference" = "reference.md" },
+  { "Development" = "development.md" },
+]
+
+[project.theme]
+features = ["content.action.edit"]
+
+[[project.theme.palette]]
+scheme = "slate"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to light mode"
+
+[[project.theme.palette]]
+scheme = "default"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to dark mode"

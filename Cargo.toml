@@ -1,13 +1,15 @@
 [package]
 name = "leash"
-version.workspace = true
-edition.workspace = true
-license.workspace = true
-repository.workspace = true
+version = "0.1.0"
+edition = "2024"
+license = "AGPL-3.0-or-later"
+repository = "https://git.cmu.dev/ScottyLabs/leash"
+documentation = "https://docs.leash.scottylabs.org"
+description = "Typed authorization policies and extractors for Rust and Axum"
 
 [dependencies]
-axum.workspace = true
+axum = { version = "0.8.8", features = ["ws"] }
 
 [dev-dependencies]
-tokio = { workspace = true, features = ["macros", "rt"] }
-tower = { workspace = true, features = ["util"] }
+tokio = { version = "1.49.0", features = ["full"] }
+tower = { version = "0.5.3", features = ["util"] }

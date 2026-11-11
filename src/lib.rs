@@ -1,6 +1,7 @@
 //! Type-level authorization for axum handlers.
 //!
-//! See `rfcs/0009-leash.md` for the design and `tests/integration.rs` for end-to-end usage.
+//! See <https://docs.leash.scottylabs.org> for usage and `tests/integration.rs`
+//! for end-to-end examples.
 
 #![forbid(unsafe_code)]
 

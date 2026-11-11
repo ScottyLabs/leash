@@ -1,0 +1,10 @@
+.pre-commit-config.yaml
+.scottylabs/
+.cargo/
+target/
+site/
+result
+result-*
+rustc-ice-*.txt
+.env
+.DS_Store
